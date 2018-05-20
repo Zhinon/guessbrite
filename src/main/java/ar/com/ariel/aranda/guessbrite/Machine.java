@@ -42,5 +42,25 @@ public class Machine implements Player {
 		int range = (max - min) + 1;     
 		return (int)(Math.random() * range) + min;
 	}
+
+	public void setValor(int valor) {
+		this.valor = valor;
+	}
+
+	public void setMin(int min) {
+		this.min = min;
+	}
+
+	public void setMax(int max) {
+		this.max = max;
+	}
+
+	public int getMin() {
+		return min;
+	}
+
+	public int getMax() {
+		return max;
+	}
 	
 }
